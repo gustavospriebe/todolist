@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap");
+:root {
+  --primary-color: #05052a;
+  --button-hover-color: #4949ad;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.3em;
+  color: var(--primary-color);
+  line-height: 1.5em;
+}
+
+body .container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+body .container input, body .container button {
+  display: inline;
+  margin-bottom: 10px;
+  height: 30px;
+}
+
+body .container input {
+  font-size: 16px;
+  padding: 0 20px;
+}
+
+body .container input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+body .container button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  width: 100px;
+  cursor: pointer;
+}
+
+body .container button:hover {
+  background: var(--button-hover-color);
+}
+/*# sourceMappingURL=style.css.map */
